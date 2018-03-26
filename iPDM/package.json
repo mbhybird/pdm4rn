@@ -1,0 +1,38 @@
+{
+  "name": "iPDM",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-native-scripts": "1.8.1",
+    "jest-expo": "23.0.0",
+    "react-test-renderer": "16.0.0"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "native-base": "^2.3.3",
+    "react": "16.0.0",
+    "react-event-emitter-mixin": "0.0.6",
+    "react-native": "0.50.3",
+    "react-native-background-timer": "^2.0.0",
+    "react-native-camera": "^0.12.0",
+    "react-native-elements": "^0.18.4",
+    "react-native-gifted-listview": "0.0.15",
+    "react-native-qrcode": "^0.2.6",
+    "react-native-qrcode-scanner": "0.0.28",
+    "react-native-smart-sortable-sudoku-grid": "^1.0.5",
+    "react-native-sortable-grid": "^2.0.0",
+    "react-native-vector-icons": "^4.4.2",
+    "react-navigation": "^1.0.0-beta.21",
+    "react-timer-mixin": "^0.13.3"
+  }
+}
